@@ -56,135 +56,163 @@
         <input id="email" type="email" name="email">
       </div>
       <div class="unit">
-        <label for="phone-number">Phone Number <span>(optional)</span></label>
+      <label for="phone-number">Phone Number <span>(optional)</span></label>
       </div>
     </fieldset>
+
+    <hr>
+
+    <fieldset class="grid">
+      <legend class="unit">Address</legend>
+      <div class="unit">
+        <label for="street-address">Street Address</label>
+        <input id="stree-address" name="street-address">
+      </div>
+      <div class="unit">
+        <label for="city">City</label>
+        <input id="city" name="city">
+      </div>
+      <div class="unit">
+        <label for="province">Province</label>
+        <select id="province" name="province">
+          <option value="">Select a province</option>
+          <option>Alberta</option>
+          <option>British Columbia</option>
+          <option>Manitoba</option>
+          <option>New Brunswick</option>
+          <option>Newfoundland & Labrador</option>
+          <option>Northwest Territories</option>
+          <option>Nova Scotia</option>
+          <option>Nunavut</option>
+          <option>Ontario</option>
+          <option>Prince Edward Island</option>
+          <option>Québec</option>
+          <option>Saskatchewan</option>
+          <option>Yukon</option>
+        </select>
+      </div>
+      <div class="unit">
+        <label for="postal-code">Postal code</label>
+        <input id="postal-code" name="postal-code">
+      </div>
+    </fieldset>
+
+    <hr>
+
+    <fieldset class="grid">
+      <legend class="unit">What activities are you interested in helping with?</legend>
+      <div class="unit">
+        <input type="checkbox" id="digging">
+        <label for="digging">Digging holes</label>
+
+        <input type="checkbox" id="dirty">
+        <label for="dirty">Getting dirty</label>
+
+        <input type="checkbox" id="lifting">
+        <label for="lifting">Lifting heavy objects</label>
+
+        <input type="checkbox" id="driving">
+        <label for="driving">Driving people</label>
+
+        <input type="checkbox" id="transporting">
+        <label for="transporting">Transporting trees</label>
+
+        <input type="checkbox" id="photos">
+        <label for="photos">Taking Photos</label>
+
+        <input type="checkbox" id="publishing">
+        <label for="publishing">Online Publishing</label>
+
+        <input type="checkbox" id="managing">
+        <label for="managing">Managing people</label>
+      </div>
+
+      <legend class="unit">Do you have any experience with the following?</legend>
+      <div class="unit">
+        <input type="checkbox" id="shovels">
+        <label for="shovels">Shovels</label>
+
+        <input type="checkbox" id="gps">
+        <label for="gps">Hand-held GPS</label>
+
+        <input type="checkbox" id="writing">
+        <label for="writing">Writing & blogging</label>
+
+        <input type="checkbox" id="photography">
+        <label for="photography">Photography</label>
+
+        <input type="checkbox" id="trail">
+        <label for="trail">Trail & hill climbing</label>
+
+        <input type="checkbox" id="bush">
+        <label for="bush">Bush craft</label>
+
+        <input type="checkbox" id="atvs">
+        <label for="atvs">ATVS</label>
+
+        <input type="checkbox" id="plant">
+        <label for="plant">Plant identification</label>
+
+        <input type="checkbox" id="planning">
+        <label for="planning">Special event planning</label>
+
+        <input type="checkbox" id="speaking">
+        <label for="speaking">Speakng to groups</label>
+      </div>
+    </fieldset>
+
+    <hr>
+
+    <fieldset class="">
+      <legend class="">Do you have a valid driver’s license?</legend>
+      <div class="">
+        <input type="radio" id="yes-drivers" name="agree">
+        <label for="yes-drivers">Yes</label>
+
+        <input type="radio" id="no-drivers" name="agree">
+        <label for="no-drivers">No</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend class="">Do you have a pick-up truck you’d be willing to use?</legend>
+      <div class="">
+        <input type="radio" id="yes-truck" name="agree">
+        <label for="yes-truck">Yes</label>
+
+        <input type="radio" id="no-truck" name="agree">
+        <label for="no-truck">No</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend class="">Do you have up-to-date first-aid certification?</legend>
+      <div class="">
+        <input type="radio" id="yes-first-aid" name="agree">
+        <label for="yes-first-aid">Yes</label>
+
+        <input type="radio" id="no-first-aid" name="agree">
+        <label for="no-first-aid">No</label>
+      </div>
+    </fieldset>
+
+    <hr>
+
+    <fieldset>
+      <legend class="">Please let us know any comments or questions you may have.</legend>
+      <div class="">
+        <textarea id="comment" name="comment"></textarea>
+      </div>
+    </fieldset>
+
+    <hr>
+
   </form>
 
-  <fieldset class="grid">
-    <legend class="unit">Address</legend>
-    <div class="unit">
-      <label for="street-address">Street Address</label>
-      <input id="stree-address" name="street-address">
-    </div>
-    <div class="unit">
-      <label for="city">City</label>
-      <input id="city" name="city">
-    </div>
-    <div class="unit">
-      <label for="province">Province</label>
-      <select id="province" name="province">
-        <option value="">Select a province</option>
-        <option>Alberta</option>
-        <option>British Columbia</option>
-        <option>Manitoba</option>
-        <option>New Brunswick</option>
-        <option>Newfoundland & Labrador</option>
-        <option>Northwest Territories</option>
-        <option>Nova Scotia</option>
-        <option>Nunavut</option>
-        <option>Ontario</option>
-        <option>Prince Edward Island</option>
-        <option>Québec</option>
-        <option>Saskatchewan</option>
-        <option>Yukon</option>
-      </select>
-    </div>
-    <div class="unit">
-      <label for="postal-code">Postal code</label>
-      <input id="postal-code" name="postal-code">
-    </div>
-  </fieldset>
+  <div class="text-center">
+    <button class="" type="submit">Apply</button>
+  </div>
 
-  <fieldset class="grid">
-    <legend class="unit">What activities are you interested in helping with?</legend>
-    <div class="unit">
-      <input type="checkbox" id="digging">
-      <label for="digging">Digging holes</label>
-
-      <input type="checkbox" id="dirty">
-      <label for="dirty">Getting dirty</label>
-
-      <input type="checkbox" id="lifting">
-      <label for="lifting">Lifting heavy objects</label>
-
-      <input type="checkbox" id="driving">
-      <label for="driving">Driving people</label>
-
-      <input type="checkbox" id="transporting">
-      <label for="transporting">Transporting trees</label>
-
-      <input type="checkbox" id="photos">
-      <label for="photos">Taking Photos</label>
-
-      <input type="checkbox" id="publishing">
-      <label for="publishing">Online Publishing</label>
-
-      <input type="checkbox" id="managing">
-      <label for="managing">Managing people</label>
-    </div>
-
-    <legend class="unit">Do you have any experience with the following?</legend>
-    <div class="unit">
-      <input type="checkbox" id="shovels">
-      <label for="shovels">Shovels</label>
-
-      <input type="checkbox" id="gps">
-      <label for="gps">Hand-held GPS</label>
-
-      <input type="checkbox" id="writing">
-      <label for="writing">Writing & blogging</label>
-
-      <input type="checkbox" id="photography">
-      <label for="photography">Photography</label>
-
-      <input type="checkbox" id="trail">
-      <label for="trail">Trail & hill climbing</label>
-
-      <input type="checkbox" id="bush">
-      <label for="bush">Bush craft</label>
-
-      <input type="checkbox" id="atvs">
-      <label for="atvs">ATVS</label>
-
-      <input type="checkbox" id="plant">
-      <label for="plant">Plant identification</label>
-
-      <input type="checkbox" id="planning">
-      <label for="planning">Special event planning</label>
-
-      <input type="checkbox" id="speaking">
-      <label for="speaking">Speakng to groups</label>
-    </div>
-  </fieldset>
-
-  <fieldset class="">
-    <legend class="">Do you have a valid driver’s license?</legend>
-    <div class="">
-      <input type="radio" id="yes-drivers" name="agree">
-      <label for="yes-drivers">Yes</label>
-
-      <input type="radio" id="no-drivers" name="agree">
-      <label for="no-drivers">No</label>
-    </div>
-
-    <legend class="">Do you have a pick-up truck you’d be willing to use?</legend>
-    <div class="">
-      <input type="radio" id="yes-truck" name="agree">
-      <label for="yes-truck">Yes</label>
-
-      <input type="radio" id="no-truck" name="agree">
-      <label for="no-truck">No</label>
-    </div>
-
-    <legend class="">Do you have up-to-date first-aid certification?</legend>
-    <div class="">
-      <input type="radio" id="yes-first-aid" name="agree">
-      <label for="yes-first-aid">Yes</label>
-
-      <input type="radio" id="no-first-aid" name="agree">
-      <label for="no-first-aid">No</label>
-    </div>
-  </fieldset>
+  <footer class="">© Tree Hugger International Organization</footer>
 </body>
 </html>
